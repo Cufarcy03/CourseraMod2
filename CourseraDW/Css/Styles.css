@@ -1,0 +1,96 @@
+*/*General*/
+{
+	text-align: center;
+	font-family:Helvetica,Arial,sans-serif;
+}
+h1 /*Heading*/
+{
+	font-size:1.75em;
+	margin-bottom:3em;
+}
+section > div/*Section text*/
+{
+	float:left;
+	position: relative;
+	display: inline;
+	background-color: #c7c1c1;
+	border: 1px solid black;
+	font-size:1em;
+	padding: 28px 10px 10px 10px;
+	box-sizing: border-box;
+}
+#chicken
+{
+	margin-left:1%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+#ck/*Chicken title*/
+{	
+	background-color: #f5f448;
+}
+#be/*Beef title*/
+{	
+	background-color: #a28d49;
+}
+
+#sh/*Sushi title*/
+{	
+	background-color: #f56565;
+}
+div > div/*Section's titles*/
+{
+	position: absolute;
+	top:0px;
+	right:0px;
+	border: 1px solid black;	
+	font-size: 1.25em;	
+}
+/*Desktop design*/
+@media(min-width: 992px)
+{
+	.col-lg-4
+	{
+		width:32%;
+	}
+	#beef
+	{
+		margin-left:1%;
+		margin-top: 2%;
+		margin-bottom: 2%;
+	}
+	#sushi
+	{
+		margin:2% 1%;
+	}
+}
+/*Tablet design*/
+@media(max-width: 991px) and (min-width: 768px)
+{
+	.col-md-6
+	{
+		width:48%;
+	}
+	.col-md-12
+	{
+		width:100%;
+	}
+	#beef
+	{
+		margin:2% 1%;
+	}
+}
+/*Mobile design*/
+@media(max-width: 767px)
+{
+	.col-sm-12
+	{
+		width:100%;
+	}
+	section > div/*Section text*/
+	{
+		margin:2% 1%;
+	}
+
+}
